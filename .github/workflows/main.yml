@@ -2,9 +2,7 @@ name: simple action
 run-name: ${{ github.actor }}
 on: 
   workflow_dispatch:
-    inputs:
-      logLevel:
-        description: 'Log level'
+  
 jobs:
   log-the-inputs:
     runs-on: ubuntu-latest
