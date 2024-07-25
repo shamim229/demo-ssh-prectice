@@ -9,5 +9,13 @@ jobs:
     runs-on: ubuntu-latest 
     steps: 
       - uses: actions/checkout@v4 
+      - name: "display text"
+        run: "hi! there"
+  show_author_name:
+    runs-on: ubuntu-latest
+    steps: 
+      - run: echo "second task is on going. give some time! ${{github.repository}}"
+
+    
     
 
