@@ -1,0 +1,13 @@
+name: Hello_world_print
+
+
+on: workflow_dispatch
+
+
+jobs: 
+  printing_hello_world:
+    runs-on: ubuntu-latest 
+    steps: 
+      - run: echo "Hi! github action. you are awsome." 
+    
+
