@@ -8,6 +8,6 @@ jobs:
   printing_hello_world:
     runs-on: ubuntu-latest 
     steps: 
-      - run: echo "Hi! github action. you are awsome." 
+      - uses: actions/checkout@v4 
     
 
